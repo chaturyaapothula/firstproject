@@ -1,0 +1,211 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Allison', cursive;
+}
+.header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(18, 18, 19, 0.753),rgba(18, 18, 19, 0.753)), url("shoppingbanner.png");
+    background-size: cover;   
+}
+
+.image{
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+}
+#text{
+    color:white;
+    text-decoration: none;
+}
+#text:hover{
+    color:pink;
+}
+nav{
+    display: flex;
+    padding: 2px 6px;
+    justify-content: space-between;
+    align-items:center;
+}
+.nav{
+    flex:1;
+    text-align: right;
+}
+.nav>ul>li{
+    list-style: none;
+    display: inline-block;
+    padding:10px 10px;
+    position: relative;
+    margin-right:20px;
+}
+.nav>ul>li>a{
+    color: white;
+    text-decoration:none;     
+}
+.nav>ul>li>a:hover{ 
+    color: black;
+    text-decoration: none;
+    border:2px solid white;
+    padding: 2px 2px;  
+    border-radius: 20px; 
+    background:rgb(186, 186, 233);
+    border-color:rgb(186, 186, 233);
+    transition:0.2s;
+}
+.box{
+    text-align: center;
+    color: pink;
+    width:90%;
+    position: absolute;
+    margin-top: 180px;
+    transform: translate(40px,40px);
+}
+.box>h1{
+    font-size:60px;
+}
+.box>p{
+    margin:10px;
+    font-size: 15px;
+}
+.button{
+    text-decoration: none;
+    color:pink;
+    border:2px solid white;
+    font-size: 17px;
+    padding: 11px 14px;
+    border-radius:25px;
+}
+.button:hover{
+    background:rgb(160, 160, 240);
+    transition:0.5s;
+    color:black;
+    border-color:rgb(160, 160, 240);
+}
+.bottom{
+    bottom:0;
+    position: absolute ;
+    margin-bottom:10px;
+    display: flex;
+    
+}
+
+
+#items{
+    background-color: rgb(255, 228, 233);   
+}
+
+#items{
+    width: 100%;
+    margin:auto;
+    text-align: center;
+    padding-top: 100px; 
+    padding-left: 40px; 
+    padding-right: 40px;  
+}
+
+h1{
+    font-size: 35px;
+    font-weight:600;
+}
+.row>p{
+    color:black;
+    font-size:14;
+    font-weight:300;
+    line-height: 22px;
+    padding:10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.item-col{
+    flex-basis:31%;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.item-col>img{
+    border-radius: 20px;
+}
+h3{
+    text-align: center;
+    font-weight:600;
+    margin:10px 0;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.item2-col{
+    flex-basis:31%;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+h3{
+    text-align: center;
+    font-weight:600;
+    margin:10px 0;
+}
+#items2{
+    width: 100%;
+    margin:auto;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+#items2{
+    background: rgb(194, 245, 228);
+}
+
+
+
+
+
+
+
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.item3-col{
+    flex-basis:31%;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+h3{
+    text-align: center;
+    font-weight:600;
+    margin:10px 0;
+}
+#items3{
+    width: 100%;
+    margin:auto;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+#items3{
+    background: rgb(172, 207, 240);
+}
+
+
+.footer{
+    height: 100vh;
+    background-image: linear-gradient(rgba(18, 18, 19, 0.753),rgba(18, 18, 19, 0.753)), url("shoppingbanner.png");
+     
+}
+
+
+
+
+
+
+
+
